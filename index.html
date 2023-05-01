@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>Awesome Books</div>
+        <div>
+          <a href="" class="list active">List</a>
+          <a href="" class="add">Add new</a>
+          <a href="" class="contact">Contact</a>
+        </div>
+      </nav>
+      <p class="datetime"></p>
+    </header>
+    <section class="show-book">
+      <h1>All Awesome books</h1>
+      <ul></ul>
+    </section>
+
+    <section class="add-book">
+      <form id="add-book-form">
+        <h2>Add a new book</h2>
+        <input type="text" id="title-input" placeholder="title" class="text" />
+        <input
+          type="text"
+          id="author-input"
+          class="text"
+          placeholder="author"
+        />
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section id="contact-section">
+      <h3>Contact information</h3>
+      <p>
+        Do have any questions or you just want to say "Hello" You can reach out
+        to us!
+      </p>
+
+      <ul>
+        <li>Our e-mail:mail@mail.com</li>
+        <li>Our phone number:0043586534422</li>
+        <li>Our address:Streetname 22,84503 City,Country</li>
+      </ul>
+    </section>
+
+    <footer>Copyright <span>...</span></footer>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
